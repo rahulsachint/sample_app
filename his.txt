@@ -1,0 +1,500 @@
+   13  clear
+   14  irb
+   15  clear
+   16  irb
+   17  clear
+   18  ruby
+   19  clear
+   20  cd Documents/
+   21  ls
+   22  cd airpr/
+   23  ls
+   24  cd Kangaroo-Court/
+   25  ls
+   26  mate .
+   27  ls
+   28  cd /
+   29  cd Library/Application\ Support/TextMate
+   30  ruby -v
+   31  gem --version
+   32  ruby gems
+   33  clear
+   34  rails
+   35  rails -v
+   36  ruby -v
+   37  gem -v
+   38  clear
+   39  ls
+   40  cd Documents/
+   41  cd cprograms/
+   42  ls
+   43  vi pocketgems.c 
+   44  clear
+   45  ls
+   46  vi airpr.c 
+   47  vi trees.c 
+   48  clear
+   49  clear
+   50  ls'
+   51  ls
+   52  git
+   53  git help
+   54  clear
+   55  clear
+   56  git help
+   57  clear
+   58  ls
+   59  vi logfile_hash.c 
+   60  vi trees.c 
+   61  vi logfile_hash.c 
+   62  vi trees.c 
+   63  clear
+   64  claer
+   65  clear
+   66  clear
+   67  ls
+   68  clear
+   69  ls
+   70  ci trees
+   71  clear
+   72  clear
+   73  vi trees.c 
+   74  clear
+   75  cd /Users/rahulmadan/Documents/airpr/Kangaroo-Court 
+   76  ls
+   77  cd ..
+   78  cd Kangaroo-Court/
+   79  mate .
+   80  cd ~/Documents/cprograms/
+   81  ls
+   82  vi trees.c 
+   83  clear
+   84  clear
+   85  emacs
+   86  ls
+   87  clear
+   88  ls
+   89  clear
+   90  split
+   91  clear
+   92  exit
+   93  exit
+   94  hello
+   95  exit
+   96  ls
+   97  exit
+   98  exit
+   99  exit
+  100  ls
+  101  quit
+  102  quit
+  103  exit
+  104  whre
+  105  jsdnf
+  106  sdn fs
+  107  exit
+  108  cd /Users/rahulmadan/.rvm/rubies/ruby-1.9.2-p320/bin/gem
+  109  cd /Users/rahulmadan/.rvm/rubies/ruby-1.9.2-p320/bin/
+  110  ls
+  111  ls
+  112  sudo gem update --system
+  113  ls
+  114  cd /
+  115  ls
+  116  cd Users/rahulmadan/Documents/
+  117  ls
+  118  cd airpr/
+  119  ls
+  120  mkdir rails_projects
+  121  ls
+  122  cd rails_projects/
+  123  ls
+  124  rails new first_app
+  125  bundle show [gem]
+  126  mate .
+  127  bundle show [jquery-rails]
+  128  bundle show [uglifier]
+  129  clear
+  130  ls
+  131  clear
+  132  pwd
+  133  cd first_app/
+  134  bundle install
+  135  clear
+  136  ps -ax
+  137  ®history
+  138  ®history
+  139  ps -ax
+  140  clear
+  141  history
+  142  defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+  143  defaults write com.apple.dock use-new-list-stack -bool YES
+  144  defaults write com.apple.dock use-new-list-stack -bool NO
+  145  defaults write com.apple.dock use-new-list-stack -bool YES
+  146  defaults write com.apple.Dock showhidden -bool YES
+  147  defaults write com.apple.Dock showhidden -bool NO
+  148  irb
+  149  clear
+  150  mate Gemfile
+  151  mate .gitignore 
+  152  cd ..
+  153  ls
+  154  cd ..
+  155  ls
+  156  cd ..
+  157  ls
+  158  cd cprograms/
+  159  ls
+  160  vi pocketgems.c 
+  161  vi pocketgems.c 
+  162  vi trees.c 
+  163  claer
+  164  clear
+  165  cd ..
+  166  ls
+  167  cd airpr/rails_projects/
+  168  cd demo_app/
+  169  rails s
+  170  cd ..
+  171  cd demo_app/
+  172  cd ../sample_app/
+  173  ls
+  174  clear
+  175  rails s
+  176  rails s
+  177  rails s
+  178  claer
+  179  clear
+  180  cl
+  181  clear
+  182  git branch
+  183  git checkout -b filling_layout
+  184  git b
+  185  git branch
+  186  clear
+  187  macvim
+  188  clear
+  189  git -v
+  190  git --version
+  191  ruby -v
+  192  rvm --default
+  193  rvm --default use 1.9.2
+  194  rvm gemset --help
+  195  which gem
+  196  clear
+  197  ls
+  198  cd ..
+  199  ls
+  200  pwd
+  201  cd airpr/
+  202  ls
+  203  cd rails_projects/first_app/
+  204  rails server
+  205  git --version
+  206  ls
+  207  pwd
+  208  clear
+  209  pwd
+  210  git config --global user,name "Rahul Madan"
+  211  git config --global user.name "Rahul Madan"
+  212  git config --global user.email rahulsachint@gmail.com
+  213  git config --global core.editor "mate -w"
+  214  ls
+  215  pwd
+  216  git init
+  217  ls
+  218  mate .gitignore
+  219  ls -a
+  220  mate .gitignore
+  221  git add .
+  222  git status
+  223  git commit -m "Initial Commit"
+  224  git log
+  225  git log
+  226  ls app/controllers/
+  227  rm -rf app/controllers/
+  228  ls app/controllers/
+  229  git status
+  230  git checkout -f
+  231  git status
+  232  ls app/controllers/
+  233  clear
+  234  git remote add origin https://github.com/rahulsachint/first_app.git
+  235  git push origin master
+  236  git checkout -b modify-readme
+  237  git branch
+  238  git mv README README.markdown
+  239  git mv README.rdoc README.markdown
+  240  mate README.markdown 
+  241  git status
+  242  git commit -a -m "Improved Readme"
+  243  git checkout master
+  244  git status
+  245  git merge modify-readme
+  246  ls
+  247  git branch
+  248  git branch -d modify-readme
+  249  ls
+  250  git status
+  251  history
+  252  git checkout -b topic-branch
+  253  ls
+  254  git status
+  255  git log
+  256  clear
+  257  git log
+  258  git status
+  259  git branch
+  260  ls
+  261  rm -rf db
+  262  ls
+  263  mk dir dumbls
+  264  mkdir dumbmk dir dumbls
+  265  ls
+  266  git add .
+  267  git status
+  268  git commit -a -m "Screwed Up"
+  269  git checout master
+  270  git checkout master
+  271  git log
+  272  git branch
+  273  git branch -D topic-branch
+  274  git push
+  275  ls
+  276  nano
+  277  clear
+  278  sudo gem install heroku
+  279  heroku keys:add
+  280  clear
+  281  heroku create
+  282  git push heroku master
+  283  mate Gemfile
+  284  git push heroku master
+  285  mate Gemfile
+  286  git push heroku master
+  287  mate Gemfile
+  288  mate Gemfile
+  289  clear
+  290  mate Gemfile
+  291  git push heroku master
+  292  mate Gemfile
+  293  mate Gemfile
+  294  bundle install
+  295  bundle show gem sqlite3-ruby
+  296  bundle show gem [sqlite3-ruby]
+  297  bundle show [sqlite3-ruby]
+  298  bundle show sqlite3-ruby
+  299  git push heroku master
+  300  mate Gemfile
+  301  git push heroku master
+  302  mate Gemfile
+  303  git push heroku master
+  304  mate Gemfile
+  305  clear
+  306  clear
+  307  git status
+  308  git commit -a -m "Modified sqlite gem in Gemfile"
+  309  git push heroku master
+  310  mate Gemfile
+  311  git commit -a -m "Modified sqlite gem :development""
+  312  git commit -a -m "Modified sqlite gem :development"
+  313  git push heroku master
+  314  clear
+  315  ls
+  316  clear
+  317  pwd
+  318  cd ..
+  319  ls
+  320  rails new demo_app
+  321  cd demo_app/
+  322  ls
+  323  mate .
+  324  clear
+  325  bundle install
+  326  bundle show [sqlite3-ruby]
+  327  bundle show sqlite3-ruby
+  328  git init
+  329  git add .
+  330  git commit -m "Initial Commit"
+  331  clear
+  332  git status
+  333  git log
+  334  clear
+  335  git branch
+  336  clear
+  337  mate .gitignore 
+  338  rails generate scaffold User name:string email:string
+  339  bundle install
+  340  rails generate scaffold User name:string email:string
+  341  rake db:migrate
+  342  rails s
+  343  rails s
+  344  clear
+  345  ;s
+  346  ls
+  347  clear
+  348  generate scaffold Micropost content:string user_id:integer
+  349  rails generate scaffold Micropost content:string user_id:integer
+  350  rake db:migrate
+  351  rails console
+  352  git status
+  353  git add .
+  354  git commit -a -m "Done with demo app"
+  355  clear
+  356  gem install taps
+  357  rvm --help
+  358  clear
+  359  ~/airpr
+  360  cd ~/airpr
+  361  ~/Documents/airpr/rails_projects/
+  362  ls
+  363  cd ~/Documents/airpr/rails_projects/
+  364  ls
+  365  rails new sample_app -T
+  366  cd sample_app/
+  367  ls
+  368  ls
+  369  clear
+  370  mate .
+  371  ls
+  372  pwd
+  373  clear
+  374  git init
+  375  git add .
+  376  git commit -a -m "Initial Commit"
+  377  history
+  378  git remote add origin https://github.com/rahulsachint/sample_app.git
+  379  git branch
+  380  git push origin master
+  381  git update-server-info
+  382  ls
+  383  git info
+  384  git --help
+  385  git status
+  386  git init
+  387  git push origin master
+  388  clear
+  389  git remote add origin https://github.com/rahulsachint/sample_app.git
+  390  git push origin master
+  391  git update-server-info
+  392  ls
+  393  git push origin master
+  394  clear
+  395  git push
+  396  git remote add origin git@githubcom:/rahulsachint/sample_app.git
+  397  git push origin master
+  398  git branch
+  399  git checkout -b static_pages
+  400  git branch
+  401  rails generator controller Pages home contact
+  402  rails generate controller Pages home contact
+  403  mate .
+  404  rails s
+  405  sudo rails server
+  406  bundle install
+  407  rails 
+  408  rails s
+  409  clear
+  410  bundle install
+  411  rails s
+  412  curl
+  413  curl --help
+  414  clear
+  415  curl --head www.google.com
+  416  curl --head www.kangaroojudge.com
+  417  curl --head google.com
+  418  curl google.com
+  419  curl --head google.com
+  420  curl google.com > out.txt
+  421  mate out.txt 
+  422  curl www.google.com > out.txt
+  423  curl --head www.google.com > out.txt
+  424  rm out.txt 
+  425  clear
+  426  git add .
+  427  git status
+  428  rails s
+  429  git add .
+  430  status
+  431  git status
+  432  git commit -am "Done with static pages, chapter 3"
+  433  clear
+  434  ls
+  435  clear
+  436  clear
+  437  cleara
+  438  clera
+  439  clear
+  440  clear
+  441  cls
+  442  clear
+  443  git b
+  444  git branch
+  445  clear
+  446  git checkout master
+  447  git branch
+  448  git merge static_pages
+  449  clear
+  450  git branc
+  451  git branch
+  452  git push
+  453  clear
+  454  cp -r ~/Downloads/joshuaclayton-blueprint-css-9bf9513/bluprint public/stylesheets
+  455  mkdir public/stylesheets
+  456  cp -r ~/Downloads/joshuaclayton-blueprint-css-9bf9513/bluprint public/stylesheets
+  457  cp -r ~/Downloads/joshuaclayton-blueprint-css-9bf9513/blueprint  public/stylesheets
+  458  clear
+  459  rails c
+  460  clear
+  461  clear
+  462  title
+  463  rails c
+  464  ls
+  465  mate .
+  466  rails c
+  467  irb
+  468  clear
+  469  claer
+  470  ls
+  471  cd ..
+  472  sample_app.
+  473  cd sample_app.
+  474  cd sample_app
+  475  ls
+  476  rails
+  477  rails c
+  478  claer
+  479  clear
+  480  cd ~/Documents/cprograms/
+  481  ls
+  482  screen
+  483  clear
+  484  clear
+  485  ls
+  486  vi trees.c 
+  487  clear
+  488  clear
+  489  screen
+  490  uptime
+  491  iostat
+  492  last
+  493  uptime
+  494  iostat
+  495  diskutil
+  496  clear
+  497  diskutil list
+  498  clear
+  499  cd ../airpr/
+  500  ls
+  501  cd rails_projects/
+  502  ls
+  503  cd sample_app/
+  504  ls
+  505  rm public/index.html 
+  506  ls
+  507  rails generate controller Users new
+  508  mate .
+  509  ls
+  510  clear
+  511  ls
+  512  history > his.txt
