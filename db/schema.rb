@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120922040703) do
+ActiveRecord::Schema.define(:version => 20120922174717) do
+
+  create_table "message_attachments", :force => true do |t|
+    t.binary   "attachment"
+    t.integer  "message_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "messages", :force => true do |t|
     t.string   "content"
@@ -19,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20120922040703) do
     t.integer  "recipient_id"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.string   "attachment"
   end
 
   add_index "messages", ["recipient_id"], :name => "index_messages_on_recipient_id"

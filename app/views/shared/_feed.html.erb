@@ -1,7 +1,0 @@
-<% unless @feed_items.empty? %>
-  User Sent Messages
-  <table class="messages" summary="User messages">
-    <%= render :partial => 'shared/feed_item', :collection => @feed_items %>
-  </table>
-  <%= paginate @feed_items %>
-<% end %>

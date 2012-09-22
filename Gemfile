@@ -5,6 +5,8 @@ gem 'rails', '3.2.5'
 #Added Gems
 gem 'gravatar_image_tag', '0.1.0'
 gem 'kaminari'
+gem 'carrierwave'
+gem "rmagick"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

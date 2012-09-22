@@ -5,5 +5,9 @@
     <span class="timestamp">
       Received <%= time_ago_in_words(message.created_at) %> ago.
     </span>
+    <span>
+      Attachment <br>
+      <%= image_tag message.attachment_url(:thumb) if message.attachment? %>
+    </span>
 </td>
 </tr>
