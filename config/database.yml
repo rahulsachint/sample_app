@@ -19,12 +19,14 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql
-  encoding: utf8
-  database: sample_add
+  adapter: postgresql
+  encoding: unicode
+  database: sample_app
+  pool: 5
+  timeout: 5000
   username: root
   password: admin
-  socket: /tmp/mysql.sock
+
   # adapter: sqlite3
   # database: db/production.sqlite3
   # pool: 5
