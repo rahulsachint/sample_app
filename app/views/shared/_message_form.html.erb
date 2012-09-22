@@ -1,0 +1,14 @@
+<%= form_for @message do |f| %>
+  <%= render 'shared/error_messages', :object => f.object %>
+    <div class="field">
+      <%= f.label :recipient_id, "Send To" %>
+      <%= f.collection_select :recipient_id, User.all, :id, :name, :prompt => true  %>
+    </div>
+    <div class="field">
+      <%= f.text_area :content %>
+    </div>
+    <div class="actions">
+      <%= f.submit "Submit" %>
+    </div>
+<% end %>
+

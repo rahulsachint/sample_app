@@ -2,10 +2,12 @@
 class UsersController < ApplicationController
   
   before_filter :authenticate, :only => [:index, :edit, :update]
-  before_filter :correct_user, :only => [:edit, :update]
+  before_filter :correct_user, :only => [:edit, :update, :show]
   
   def show
     @user = User.find(params[:id])
+    @messages = Kaminari.paginate_array(Message.find_all_by_recipient_id(@user)).page(params[:page])
+    
     @title = @user.name
   end
   
@@ -51,10 +53,6 @@ class UsersController < ApplicationController
   end
   
   private
-  
-    def authenticate
-      deny_access unless signed_in?
-    end
     
     def correct_user
       @user = User.find(params[:id])

@@ -1,0 +1,9 @@
+<tr>
+  <td class="message">
+    <span class="sender">Message From : <%= User.find(message.user_id).name %></span><br>
+    <span class="content"><%= message.content %></span>
+    <span class="timestamp">
+      Received <%= time_ago_in_words(message.created_at) %> ago.
+    </span>
+</td>
+</tr>
