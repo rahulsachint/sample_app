@@ -12,7 +12,7 @@ gem "rmagick"
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
-gem 'sqlite3'
+
 # gem 'sqlite3-ruby', '1.2.5', :group => :development
 
 # Gems used only for assets and not required
@@ -30,13 +30,14 @@ end
 gem 'jquery-rails'
 
 
-group :development do
+group :development, :test do
+  gem 'sqlite3'
   gem 'annotate', '2.4.1.beta1'
 end
 
-group :test do
-#gem 'factory_girl_rails', '1.0'
-end
+# group :test do
+# #gem 'factory_girl_rails', '1.0'
+# end
 
 
 # To use ActiveModel has_secure_password
